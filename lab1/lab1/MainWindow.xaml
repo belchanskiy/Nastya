@@ -82,7 +82,7 @@
             Content="OK"  
             Grid.Column="0" 
             Grid.Row="6"
-            Click="buttonOK_Click"
+            Command="{Binding OKButtonCMD}"
         />
         <TextBox 
             x:Name="textLogin" 
